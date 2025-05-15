@@ -4,33 +4,31 @@ This project demonstrates the deployment of a **Hub-and-Spoke** network topology
 
 ## 📁 Table of Contents
 
-- [Overview](#overview)
-- [Architecture Diagram](#architecture-diagram)
-- [Project Goals](#project-goals)
-- [Step-by-Step Implementation](#step-by-step-implementation)
-- [Monitoring & Cost Estimation](#monitoring--cost-estimation)
-- [Tech Stack](#tech-stack)
-- [Screenshots & Demo](#screenshots--demo)
-- [Documentation](#documentation)
-- [Lessons Learned](#lessons-learned)
-- [References](#references)
-- [Author](#author)
+- [Overview](#overview-)
+- [Architecture Diagram](#architecture-diagram-)
+- [Project Goals](#project-goals-)
+- [Step-by-Step Implementation](#step-by-step-implementation-)
+- [Monitoring & Cost Estimation](#monitoring--cost-estimation-)
+- [Tech Stack](#tech-stack-)
+- [Documentation and Demo](#documentation-and-demo-)
+- [Lessons Learned](#lessons-learned-)
+- [References](#references-)
 
 ---
 
-## 📌 Overview
+## Overview 📌
 
 This project simulates a real-world **Hub-and-Spoke architecture** using Azure components. The central Hub VNet provides shared services, while Spoke VNets represent isolated environments (e.g., departments or applications). Connectivity, security, and monitoring are implemented for a complete cloud setup.
 
 ---
 
-## 🧩 Architecture Diagram
+## Architecture Diagram 🧩
 
 ![Architecture Diagram](https://github.com/user-attachments/assets/e5cb908c-410e-4613-b03d-360ce293245c)
 
 ---
 
-## 🎯 Project Goals
+## Project Goals 🎯
 
 - Create a Resource Group to manage all components.  
 - Deploy one Hub VNet and three Spoke VNets.  
@@ -43,7 +41,7 @@ This project simulates a real-world **Hub-and-Spoke architecture** using Azure c
 
 ---
 
-## 🛠️ Step-by-Step Implementation
+## Step-by-Step Implementation 🛠️
 
 ### ✅ Step 1: Create Resource Group
 - Resource Group Name: `HubSpoke-RG`  
@@ -87,7 +85,7 @@ Each VNet has one subnet.
 
 ---
 
-## 💸 Monitoring & Cost Estimation
+## Monitoring & Cost Estimation 💸
 
 - Enabled Azure Monitor for all services.  
 - Configured Metrics and Logs routing.  
@@ -99,7 +97,7 @@ Each VNet has one subnet.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack 🚀
 
 - Microsoft Azure  
 - Azure Virtual Network (VNet)  
@@ -112,14 +110,14 @@ Each VNet has one subnet.
 
 ---
 
+## Documentation and Demo 📄
 
-## 📄 Documentation
-
-If you need the full project documentation or any related files, please feel free to contact me at: [Mahmoud Elnagar](mailto:elnagarm852@gmail.com)
+If you need the full project documentation or a demo, feel free to contact me at:  
+📧 [Mahmoud Elnagar](mailto:elnagarm852@gmail.com)
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned 🧠
 
 - Importance of centralized network management in Azure.  
 - How to secure and monitor traffic using NSGs and monitoring tools.  
@@ -127,16 +125,8 @@ If you need the full project documentation or any related files, please feel fre
 
 ---
 
-## 📚 References
+## References 📚
 
 - [Microsoft Docs - Hub and Spoke](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)  
 - [Azure VNet Peering](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)  
 - [Azure Monitoring](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)  
-
----
-
-## 👤 Author
-
-Your Name — your.email@example.com  
-LinkedIn: [your-linkedin-profile](https://linkedin.com/in/yourprofile)  
-GitHub: [your-github-profile](https://github.com/yourgithub)  
