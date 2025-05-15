@@ -2,7 +2,6 @@
 
 This project demonstrates the deployment of a **Hub-and-Spoke** network topology on **Microsoft Azure**, designed to enhance security, scalability, and centralized control over network traffic. The solution includes virtual machines, virtual networks, network security groups, and web app deployment with monitoring and logging.
 
-
 ## 📁 Table of Contents
 
 - [Overview](#overview)
@@ -12,6 +11,9 @@ This project demonstrates the deployment of a **Hub-and-Spoke** network topology
 - [Monitoring & Cost Estimation](#monitoring--cost-estimation)
 - [Tech Stack](#tech-stack)
 - [Screenshots & Demo](#screenshots--demo)
+- [Documentation](#documentation)
+- [Lessons Learned](#lessons-learned)
+- [References](#references)
 - [Author](#author)
 
 ---
@@ -20,13 +22,11 @@ This project demonstrates the deployment of a **Hub-and-Spoke** network topology
 
 This project simulates a real-world **Hub-and-Spoke architecture** using Azure components. The central Hub VNet provides shared services, while Spoke VNets represent isolated environments (e.g., departments or applications). Connectivity, security, and monitoring are implemented for a complete cloud setup.
 
-
 ---
 
 ## 🧩 Architecture Diagram
 
-![Architecture Diagram](![Image](https://github.com/user-attachments/assets/e5cb908c-410e-4613-b03d-360ce293245c))
-
+![Architecture Diagram](https://github.com/user-attachments/assets/e5cb908c-410e-4613-b03d-360ce293245c)
 
 ---
 
@@ -112,8 +112,10 @@ Each VNet has one subnet.
 
 ---
 
-## 📸 Demo
 
+## 📄 Documentation
+
+If you need the full project documentation or any related files, please feel free to contact me at: [Mahmoud Elnagar](mailto:elnagarm852@gmail.com)
 
 ---
 
@@ -133,5 +135,8 @@ Each VNet has one subnet.
 
 ---
 
- 
+## 👤 Author
 
+Your Name — your.email@example.com  
+LinkedIn: [your-linkedin-profile](https://linkedin.com/in/yourprofile)  
+GitHub: [your-github-profile](https://github.com/yourgithub)  
