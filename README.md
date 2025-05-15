@@ -65,7 +65,10 @@ Each VNet has one subnet.
 - Name: `hubwebapp123xyz`  
 - Deploy via:  
   - Visual Studio Code  
-  - IIS Deployment  
+  - IIS Deployment
+  
+🔗 Live Web App:
+https://web-app-gcfue6hghnaxcdey.francecentral-01.azurewebsites.net/
 
 ### 🔐 Step 5: Configure Network Security Groups (NSGs)
 - Create NSG for each VNet.  
